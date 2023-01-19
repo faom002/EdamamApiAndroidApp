@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#33ceff"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/searchHistoryBtn"
+            android:layout_width="103dp"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/grey"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/search_history"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/settingsBtn"
+            android:layout_width="110dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="7dp"
+            android:fontFamily="sans-serif-condensed"
+            android:backgroundTint="@color/grey"
+            android:text="@string/settings"
+            android:textColor="@color/black" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/searchFoodBtnId"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_marginStart="90dp"
+            android:background="@color/grey"
+            android:text="@string/search_for_recipes"
+            android:textColor="@color/black" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fadeScrollbars="false"
+            android:fastScrollAlwaysVisible="true"
+            android:fastScrollEnabled="false"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:scrollbarSize="0dip"
+            android:scrollbarStyle="insideInset"
+            android:scrollbars="vertical"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

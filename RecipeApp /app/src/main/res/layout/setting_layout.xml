@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#33ceff"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text_border"
+            android:backgroundTint="@color/grey"
+            android:gravity="center"
+            android:fontFamily="sans-serif-condensed"
+            android:padding="10dp"
+            android:text="Settings"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="53dp"
+            android:background="@drawable/edit_text_border"
+            android:backgroundTint="@color/grey"
+            android:gravity="center"
+            android:fontFamily="sans-serif-condensed"
+            android:padding="10dp"
+            android:text="@string/desired_calories_intake"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/caloriesEditTextId"
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:background="@drawable/edit_text_border"
+            android:gravity="end"
+            android:hint="@string/cal"
+            android:padding="10dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="100dp"
+
+        >
+
+        <Button
+            android:id="@+id/saveBtnId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/save"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tips"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:background="@drawable/edit_text_border"
+        android:backgroundTint="@color/grey"
+        />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/when_you_have_chosen_desired_calorie_intake_then_you_will_be_sent_to_the_recipe_search"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:padding="80dp"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">recipeApp</string>
+    <string name="save_this_recipe">Save this recipe</string>
+    <string name="save_this_recipe2">Save this recipe</string>
+    <string name="recipe">Recipe</string>
+    <string name="recipe_ingredients">Recipe ingredients:</string>
+    <string name="search_history">Search History</string>
+    <string name="settings">Settings</string>
+    <string name="search_for_recipes">Search for recipes</string>
+    <string name="saved_recipe">Saved Recipe</string>
+    <string name="saved_recipes">Saved Recipes</string>
+    <string name="recipes">recipe</string>
+    <string name="sample_text">Sample Text</string>
+    <string name="history">history</string>
+    <string name="recipe_main">recipe main</string>
+    <string name="search_recipe">search Recipe</string>
+    <string name="recipe_history">recipe history</string>
+    <string name="when_you_have_chosen_desired_calorie_intake_then_go_back_to_the_recipe_search">When you have chosen desired calorie intake, then go back to the recipe search</string>
+    <string name="save">Save</string>
+    <string name="tips">Tips</string>
+    <string name="desired_calories_intake">Desired Calories Intake</string>
+    <string name="cal">cal</string>
+    <string name="when_you_have_chosen_desired_calorie_intake_then_you_will_be_sent_to_the_recipe_search">when you have chosen desired calorie intake then you will be sent to the recipe search</string>
+</resources>
